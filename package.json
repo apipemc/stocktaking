@@ -1,16 +1,29 @@
 {
-  "name": "stocktaking",
-  "version": "1.0.0",
-  "main": "main.js",
-  "repository": "https://github.com/apipemc/stocktaking.git",
-  "author": "Andres Felipe Martinez Cordero <andrepipem@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "electron ."
-  },
-  "devDependencies": {
-    "electron": "^1.7.5",
-    "eslint": "^4.5.0",
-    "eslint-plugin-react": "^7.3.0"
-  }
+    "name": "stocktaking",
+    "version": "1.0.0",
+    "main": "main.js",
+    "repository": "https://github.com/apipemc/stocktaking.git",
+    "author": "Andres Felipe Martinez Cordero <andrepipem@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack",
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.5",
+        "electron": "^1.7.5",
+        "electron-reload": "^1.2.1",
+        "eslint": "^4.5.0",
+        "eslint-plugin-react": "^7.3.0",
+        "extract-text-webpack-plugin": "^3.0.0",
+        "file-loader": "^0.11.2",
+        "webpack": "^3.5.5"
+    },
+    "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1"
+    }
 }
